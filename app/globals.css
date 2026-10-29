@@ -1,13 +1,13 @@
 :root{
   /* Change the theme here: swap these 4 emerald values for your own colour */
-  --primary:#087A58; --primary-strong:#066748; --primary-ink:#065F43; --primary-soft:#EEFAF5; --primary-border:#B9E6D6; --primary-bright:#34D399;
+  --primary:#1D4ED8; --primary-strong:#1E40AF; --primary-ink:#1E3A8A; --primary-soft:#EFF6FF; --primary-border:#BFDBFE; --primary-bright:#60A5FA;
   --ink:#0D1117; --body:#363C47; --cap:#5B6472; --mist:#F7F8FA; --line:#E7EAEF; --line2:#D6DBE3;
   --ease:cubic-bezier(.22,1,.36,1);
 }
 *{box-sizing:border-box;margin:0}
 html{scroll-behavior:smooth;scroll-padding-top:88px}
 body{font-family:var(--font-sans),system-ui,sans-serif;font-size:17px;line-height:1.72;color:var(--body);background:#fff;-webkit-font-smoothing:antialiased}
-::selection{background:#DCF3EA;color:var(--primary-ink)}
+::selection{background:#DBEAFE;color:var(--primary-ink)}
 :focus-visible{outline:2px solid var(--primary);outline-offset:3px}
 .shell{max-width:1180px;margin:0 auto;padding:0 clamp(20px,4vw,40px)}
 .shell-n{max-width:880px;margin:0 auto;padding:0 clamp(20px,4vw,40px)}
